@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ThongKeSanPham" targetNamespace="http://tempuri.org/ThongKeSanPham.xsd" xmlns:mstns="http://tempuri.org/ThongKeSanPham.xsd" xmlns="http://tempuri.org/ThongKeSanPham.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ThongKeSanPham" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ThongKeSanPham" msprop:Generator_UserDSName="ThongKeSanPham">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbSanPham" msprop:Generator_TableClassName="tbSanPhamDataTable" msprop:Generator_TableVarName="tabletbSanPham" msprop:Generator_TablePropName="tbSanPham" msprop:Generator_RowDeletingName="tbSanPhamRowDeleting" msprop:Generator_RowChangingName="tbSanPhamRowChanging" msprop:Generator_RowEvHandlerName="tbSanPhamRowChangeEventHandler" msprop:Generator_RowDeletedName="tbSanPhamRowDeleted" msprop:Generator_UserTableName="tbSanPham" msprop:Generator_RowChangedName="tbSanPhamRowChanged" msprop:Generator_RowEvArgName="tbSanPhamRowChangeEvent" msprop:Generator_RowClassName="tbSanPhamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sMaSP" msprop:Generator_ColumnVarNameInTable="columnsMaSP" msprop:Generator_ColumnPropNameInRow="sMaSP" msprop:Generator_ColumnPropNameInTable="sMaSPColumn" msprop:Generator_UserColumnName="sMaSP" type="xs:string" minOccurs="0" />
+              <xs:element name="sTenSP" msprop:Generator_ColumnVarNameInTable="columnsTenSP" msprop:Generator_ColumnPropNameInRow="sTenSP" msprop:Generator_ColumnPropNameInTable="sTenSPColumn" msprop:Generator_UserColumnName="sTenSP" type="xs:string" minOccurs="0" />
+              <xs:element name="sChatLieu" msprop:Generator_ColumnVarNameInTable="columnsChatLieu" msprop:Generator_ColumnPropNameInRow="sChatLieu" msprop:Generator_ColumnPropNameInTable="sChatLieuColumn" msprop:Generator_UserColumnName="sChatLieu" type="xs:string" minOccurs="0" />
+              <xs:element name="sMau" msprop:Generator_ColumnVarNameInTable="columnsMau" msprop:Generator_ColumnPropNameInRow="sMau" msprop:Generator_ColumnPropNameInTable="sMauColumn" msprop:Generator_UserColumnName="sMau" type="xs:string" minOccurs="0" />
+              <xs:element name="sSize" msprop:Generator_ColumnVarNameInTable="columnsSize" msprop:Generator_ColumnPropNameInRow="sSize" msprop:Generator_ColumnPropNameInTable="sSizeColumn" msprop:Generator_UserColumnName="sSize" type="xs:string" minOccurs="0" />
+              <xs:element name="iSoluongSP" msprop:Generator_ColumnVarNameInTable="columniSoluongSP" msprop:Generator_ColumnPropNameInRow="iSoluongSP" msprop:Generator_ColumnPropNameInTable="iSoluongSPColumn" msprop:Generator_UserColumnName="iSoluongSP" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
